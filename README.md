@@ -82,6 +82,12 @@ Conv → ReLU → MaxPool → Conv → ReLU → MaxPool → Flatten → FC → R
 
 ---
 
-## 🔧 复现方式
+## 复现方式
 
 将数据集放于 `dataset/` 目录，运行 `basic_section.ipynb` 训练生成 `model_final.npz`，与 `submission.py` 打包为 `submission.zip` 上传 Eval AI 即可。
+
+---
+
+## 补充说明
+
+由于数据集规模较小，本地验证结果存在一定波动，因此最终以 Eval AI 官方测试结果作为主要评价指标。
